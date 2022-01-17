@@ -1,0 +1,32 @@
+.indicator {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 12.5px;
+  background: #ebebeb;
+}
+
+.valid {
+  background: #2b965d;
+}
+
+.expanded {
+  margin: 10px;
+  width: 120px;
+  height: 50px;
+  border-radius: 12.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #a18cd1;
+  vertical-align: middle;
+  color: #f5f5f5;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=Indicator.module.css.map */

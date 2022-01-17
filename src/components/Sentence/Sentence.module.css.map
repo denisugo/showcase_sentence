@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAC;EACT,UAAU,EAAE,IAAI;CAMjB;;AAPD,AAEE,UAFQ,CAER,KAAK,CAAC;EACJ,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,KAAK,ECKO,IAAI;CDJjB",
+    "sources": [
+        "Sentence.module.scss",
+        "../../_styleVariables.scss"
+    ],
+    "names": [],
+    "file": "Sentence.module.css"
+}

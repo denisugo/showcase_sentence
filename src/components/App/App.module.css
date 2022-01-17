@@ -1,0 +1,32 @@
+.app {
+  text-align: center;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#a18cd1), to(#fbc2eb));
+  background-image: linear-gradient(to bottom, #a18cd1 0%, #fbc2eb 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.app .indicators {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=App.module.css.map */

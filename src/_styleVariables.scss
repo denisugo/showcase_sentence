@@ -1,0 +1,28 @@
+// Palette
+// body colors
+$gradientStartColor: #a18cd1;
+$gradientEndColor: #fbc2eb;
+$borderColor: #000;
+
+// input colors
+$inputBackgroundColor: #3b103b;
+$placeholderColor: #cdcccc;
+$inputTextColor: #f2efef;
+
+// Sentence colors
+$sentenceColor: #fff;
+
+// Button colors
+$buttonColor: #a63b80;
+$buttonTextColor: #cdcccc;
+
+//Indicator colors
+$activeIndicatorColor: #a18cd1;
+$validIndicatorColor: #2b965d;
+$unvisitedIndicatorColor: #ebebeb;
+$indicatorTextColor: #f5f5f5;
+
+// Style props
+@function getBorderRadius($size) {
+  @return $size/4;
+}

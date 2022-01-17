@@ -1,0 +1,30 @@
+@import "../../styleVariables";
+
+// Vars definition
+$height: 50px;
+
+.indicator {
+  margin: 10px;
+  width: 50px;
+  height: $height;
+  border-radius: getBorderRadius($height);
+  background: $unvisitedIndicatorColor;
+}
+
+.valid {
+  background: $validIndicatorColor;
+}
+
+.expanded {
+  margin: 10px;
+  width: 120px;
+  height: $height;
+  border-radius: getBorderRadius($height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $activeIndicatorColor;
+  vertical-align: middle;
+  color: $indicatorTextColor;
+  font-size: 1.5rem;
+}

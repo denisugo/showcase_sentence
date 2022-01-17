@@ -1,0 +1,10 @@
+@import "../../styleVariables";
+
+.container {
+  margin-top: 20px;
+  .text {
+    padding: 20px;
+    font-size: 2rem;
+    color: $sentenceColor;
+  }
+}
