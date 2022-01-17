@@ -19,14 +19,14 @@ import {
 
 function App() {
   // Get the sentence value from the store
-  const sentence: string = useAppSelector(selectSentence);
-  // Get values of the questions
-  const questions: string[] = useAppSelector(selectQuestions);
-  const answers: string[] = useAppSelector(selectAnswers);
-  const current: currentEnum = useAppSelector(selectCurrent);
+  const sentence = useAppSelector(selectSentence);
+  // Get values of the questions, answers and current question
+  const questions = useAppSelector(selectQuestions);
+  const answers = useAppSelector(selectAnswers);
+  const current = useAppSelector(selectCurrent);
 
   // The value below decides if the 'Generate' should be visible or not
-  const readyForGeneration: boolean = current === currentEnum.where;
+  const readyForGeneration = current === currentEnum.where;
 
   const dispatch = useAppDispatch();
 
