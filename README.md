@@ -10,4 +10,4 @@
 ## Note
 
 1. Original wireframes available in Wireframeas directory
-2. Link to this website is (here)[https://showcase-sentence-builder.herokuapp.com/]
+2. Link to this website is [here](https://showcase-sentence-builder.herokuapp.com/)
